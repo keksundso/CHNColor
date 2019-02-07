@@ -1,0 +1,10 @@
+Package: CHNColor
+Title: Creating a palette of most distinguishable colours 
+Version: 0.0.0.9000
+Authors@R: person("Christoph", "Neu", email = "keksundso@hotmail.de", role = c("aut", "cre"))
+Description: Simple wrapper to create a list of most distinguishable colors of length n. For small n, it uses the color list from Sasha Trubetskoy (https://sashat.me/2017/01/11/list-of-20-simple-distinct-colors/). For more colors it falls back to random color sampling. If wanted it can also create colorgradients, by utilizing colorRamps.
+Depends: R (>= 3.4.3)
+License: none
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1.9000
