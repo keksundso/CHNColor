@@ -1,6 +1,12 @@
 # CHNColor
 R package to create Vector of distinct colors
 
+## Installation: 
+- library("devtools")
+- install_github("keksundso/CHNColor")
+
+For more than 21 colors the library colorRamps ist required. 
+
 
 ## Use
 For usage instruction, see R Documentation (?CHNColor)
@@ -10,8 +16,3 @@ Color selection is taken from Sasha Trubetskoy (see https://sashat.me/2017/01/11
 
 
 
-## Installation: 
-library("devtools")
-install_github("keksundso/CHNColor")
-
-For more than 21 colors the library colorRamps ist required. 
